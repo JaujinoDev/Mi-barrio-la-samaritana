@@ -107,3 +107,18 @@
     top: 0;
     transition: .3s ease-in-out;
 }
+
+@media (max-width: 510px) {
+    .info h1{
+        text-align: center;
+    }
+
+    .info p{
+        text-align: center;
+    }
+
+    .info a{
+        width: 80%;
+        margin: 0 0 0 40px;
+    }
+}
