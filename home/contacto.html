@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conoce mas</title>
+
+    <link rel="shortcut icon" href="../img/SAMARITANA1.jpg" />
     <link rel="stylesheet" href="../css/contacto.css">
 
     
@@ -20,18 +22,18 @@
             <div class="contact-form">
               <div class="contact-info">
                 <h3>Contactanos</h3>
-                <form action="">
+                <form action="https://formsubmit.co/dotafigu123@gmail.com " method="POST" />
                   <p>
                     <label for="">Nombres</label>
-                    <input type="text" name="fullname" />
+                    <input type="text" name="name" id="name"  class="name"/>
                   </p>
                   <p>
                     <label for="">Correo Electronico</label>
-                    <input type="email" name="email" />
+                    <input type="email" name="email" id="mail" class="email" />
                   </p>
                   <p>
                     <label for="">Numero de Celular</label>
-                    <input type="tel" name="phone" />
+                    <input type="tel" name="phone" id="subject" class="subject" />
                   </p>
                   <p>
                     <label for="">Asunto</label>
@@ -39,10 +41,10 @@
                   </p>
                   <p class="block">
                     <label for="">Mensaje</label>
-                    <textarea name="message" rows="3"></textarea>
+                    <textarea name="message" rows="3" class="message" id="message"></textarea>
                   </p>
                   <p class="block">
-                    <button type="submit">Enviar</button>
+                    <button type="submit"  class="btn btn-prymary">Enviar</button>
                   </p>
                 </form>
             </div>
