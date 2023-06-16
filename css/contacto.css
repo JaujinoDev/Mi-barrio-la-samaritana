@@ -202,6 +202,14 @@
           padding: 1em;
           text-align: center;
       }
+
+      .contacto .btn {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+      }
   
 }
 
@@ -209,7 +217,11 @@
     
     .contacto .btn {
         width: 50%;
+        display:flex ;
         position: fixed;
+        align-items: center;
+        justify-content: center;
+        
         
     }
 }
