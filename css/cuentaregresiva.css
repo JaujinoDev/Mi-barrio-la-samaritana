@@ -1,0 +1,74 @@
+
+.cuenta-regresiva {
+    background-image: url(../img/cortamonte1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: azure;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height:100vh;
+    background-image: linear-gradient(
+      to top,
+      rgba(28, 29, 31, 0.411) 0%,
+      rgba(4, 22, 27, 0.418) 100%, 
+    );
+  
+    
+}
+
+
+.container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+
+
+
+.big-number {
+    font-size: 60px;
+    font-weight: 400px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+.cuenta-regresiva h1 {
+    margin-bottom: 40px;
+    color: rgb(163, 25, 67);
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+@media (max-width: 468px) {
+
+    .cuenta-regresiva{
+       display: flex;
+        flex-direction: column;
+        padding: auto;
+       
+    }
+
+    .cuenta-regresiva .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuenta-regresiva .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuenta-regresiva .contenedor .subtitulo {
+        display: block;
+        flex-direction: column;
+        position: relative;
+    }
+
+     
+}
+
+
