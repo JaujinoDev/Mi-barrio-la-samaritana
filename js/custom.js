@@ -5,7 +5,7 @@ const seconds = document.getElementById('seconds');
 
 
 
-const newCarnaval = '23 feb 2024';
+const newCarnaval = '15 feb 2024';
 
 function countTimer(){
     const newCarnavalDate = new Date(newCarnaval);
